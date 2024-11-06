@@ -39,10 +39,14 @@ Here’s what a sample `.bff` file might look like:
     P 2 9
     P 9 6
 
-    
-To add your own custom `.bff` file, place it in the project directory and add it to the file selection in the `choose_bff_file` function within the code.<br />
-Note that for the xy coordinates, it should be given as if in extended map where the coordinated are multiplied by two. For example, in the above example, the first P coordintate should be translated to 3, 1.5.<br />
-In the reduced coordinates, each integer is represented as the center of the block/row/column, and each odd muliple of 0.5 (n.5) is represented as edges. 
+## Note
+  - To add your own custom `.bff` file, place it in the project directory and add it to the file selection in the `choose_bff_file` function within the code.<br />
+  - Note that for the xy coordinates, it should be given as if in extended map where the coordinated are multiplied by two. For example, in the above example, the first P coordintate should be translated to 3, 1.5.<br />
+  - In the reduced coordinates, each integer is represented as the center of the block/row/column, and each odd muliple of 0.5 (n.5) is represented as edges. 
+  - The .bff files include two testing .bff files which are invalid maps, named "invalid_grir.bff" and "no_blocks.bff". The rest are the maps used for this program.
+
+
+
 
 ## Output
 The program will generate a `.txt` file with the solution, displaying the solved grid using the symbols above.
