@@ -56,6 +56,7 @@ The program should run correctly with any properly formatted `.bff` file. When e
 
 ## Authors
   Jenny Zhang https://github.com/ztjenny
+  Jiale Huang https://github.com/joe0629
   
     
     
