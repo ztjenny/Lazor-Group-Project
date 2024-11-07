@@ -55,7 +55,7 @@ The program will generate a `.txt` file with the solution, displaying the solved
 The program should run correctly with any properly formatted `.bff` file. When executed, it will prompt you to select a file, and then it will generate the solution.
 
 ## Authors
-  Jenny Zhang https://github.com/ztjenny
+  Jenny Zhang https://github.com/ztjenny<br />
   Jiale Huang https://github.com/joe0629
   
     
